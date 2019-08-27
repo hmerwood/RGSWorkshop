@@ -8,11 +8,11 @@ y = x^2
 # plot objects
 plot(x, y)
 
-person_name = c("dani", "alistair", "robin")
-n_coffee = c(10, 15, 6)
-hometown = c("zaragoza", "edinburgh", "hereford")
 
-likes_tea = c(TRUE, FALSE, FALSE)
+person_name <- c("Elle", "Nick", "Dan")
+n_coffee <- c(3, 9, 20)
+hometown <- c("London", "Cumbria", "Kent")
+likes_tea <- c(TRUE, FALSE, FALSE)
 
 class(person_name)
 class(n_coffee)
@@ -47,4 +47,5 @@ tmap_mode("view")
 tm_shape(coffee_sf) + tm_dots()
 
 write.csv(coffee_df, "coffee.csv")
+
 
